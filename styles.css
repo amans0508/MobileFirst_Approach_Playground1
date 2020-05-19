@@ -1,4 +1,26 @@
 /* primary variables */
-body {
-    background: #0A0B5B;
+:root {
+    --primary: #FFC636;
+    --secondary: #0A0B5B;
 }
+
+/* reset */
+body,
+p,
+a,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* base styles */
+
+/* fonts  */
+
+/* mobile styles  */
