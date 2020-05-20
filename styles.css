@@ -88,9 +88,17 @@ input textarea {
 }
 
 /* mobile styles  */
-.site-nav-grid {
+.grid {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
+}
+
+.site-nav {
+    margin: 0 20px;
+}
+
+.site-nav ul {
+    display: none;
 }
 
 h1 {
