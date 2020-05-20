@@ -13,14 +13,97 @@ li {
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: 'Rubik Regular';
+}
+
+body {
+    background: var(--secondary);
+    overflow-x: hidden;
 }
 
 li {
     list-style-type: none;
 }
 
+.button {
+    background: none;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    padding: 6px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+    display: inline-block;
+}
+
+.button:hover {
+    color: black;
+    background: var(--primary);
+}
+
 /* base styles */
+h1,
+h2,
+h3,
+h4 {
+    color: #DDDBFF;
+    font-weight: normal;
+}
+
+p,
+a,
+li {
+    color: #9893D8;
+}
+
+h1,
+h3 {
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+.leading {
+    font-size: 1.1em;
+}
+
+input textarea {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 10px 16px;
+    border-radius: 20px;
+    border: 2px solid #9893D8;
+    color: #f2f2f2;
+}
 
 /* fonts  */
+@font-face {
+    font-family: 'Rubik Regular';
+    src: url('./assets/Fonts/Rubik-Regular.ttf');
+}
 
 /* mobile styles  */
+.site-nav-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+h1 {
+    grid-column: 1 / 4;
+    padding: 10px;
+    border-bottom: 3px var(--primary);
+}
+
+/* small tablet styles */
+@media screen and (min-width: 620px) {}
+
+/*Large tablet Style */
+@media screen and (min-width: 960px) {}
+
+/* Desktop Style */
+@media screen and (min-width: 1200px) {}
